@@ -1,0 +1,15 @@
+2022-09-22 09:59:22,798 ERROR 31670 [-/::1/-/9ms GET /update?id=13] nodejs.ReferenceError: comments is not defined
+    at HomeController.updatePage (/Users/zhenhao/Desktop/EggMessageBoard/app/controller/home.js:40:52)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/zhenhao/Desktop/EggMessageBoard/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/zhenhao/Desktop/EggMessageBoard/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/zhenhao/Desktop/EggMessageBoard/node_modules/koa-static-cache/index.js:41:56
+
+pid: 31670
+hostname: TangChuandeMacBook-Air.local
+

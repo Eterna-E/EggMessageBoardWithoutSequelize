@@ -1,0 +1,328 @@
+{
+  "view": {
+    "defaultViewEngine": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+    "mapping": {
+      ".njk": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js"
+    },
+    "root": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view/config/config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+      "port": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+      "user": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+      "password": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+      "database": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js"
+    },
+    "app": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+    "agent": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+    "default": {
+      "database": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "keys": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+  "middleware": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+  "multipart": {
+    "mode": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+    "fileSize": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+    "autoFields": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/config/config.default.js",
+      "type": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "name": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "version": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "description": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "private": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "stop": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "dev": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "debug": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "test": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "cov": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "lint": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "ci": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "autod": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "type": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "url": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "license": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "strict": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "depth": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "env": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "level": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "logging": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "port": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/zhenhao/Desktop/EggMessageBoard/node_modules/egg/config/config.default.js"
+}
